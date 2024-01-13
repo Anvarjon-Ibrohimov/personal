@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Task-1</h1>
+    <h1>HTML Form</h1>
+    <form action="#">
+        <div>
+            <label for="firsName">FirstName</label>:
+            <input type="text" name="firsName" id="firsName"> <br>
+        </div> <br>
+        <div>
+            <label for="LastName">LastName</label>:
+            <input type="text" name="LastName" id="LastName">
+        </div> <br>
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email">
+        </div> <br>
+        <div>
+            <input type="radio" name="gender" id="gender" value="Male">Male <br>
+            <input type="radio" name="gender" id="gender" value="Female">Female
+        </div>
+        <div>
+            <input type="submit">
+            <input type="reset">
+        </div>
+    </form>
+    <h1>Task-2</h1>
+        <h1>Travel reservation form</h1>
+        <b>*denotes mandotory</b>
+    <form action="#">
+        <div>
+            <label for="FullName">Full Name*:</label><br>
+            <input type="text" name="FullName" id="FullName" placeholder="FirstName LastName">
+        </div>
+        <div>
+            <label for="email">Email address*:</label> <br>
+            <input type="email" name="email" id="email" placeholder="Email_address">
+        </div>
+        <div>
+            <label for="package">Select Tour Package*:</label> <br>
+            <select name="package" id="package">
+                <option value="vip">Vip</option>
+                <option value="ordinary">Ordinary</option>
+            </select>
+        </div>
+        <div>
+            <label for="date">Arrival date*:</label> <br>
+            <input type="date" id="date" name="date">
+        </div>
+        <div>
+            <label for="personNum">Numberof persons*:</label> <br>
+            <input type="number" name="personNum" id="personNum" placeholder="Uncknown">
+        </div>
+        <div>
+            <label for="interest">What would you want to avail?*</label> <br>
+            Boarding<input type="checkbox" name="interest" id="interest" value="Boarding"> <br>
+            Fooding<input type="checkbox" name="interest" id="interest" value="Fooding"> <br>
+            SightSeeing<input type="checkbox" name="interest" id="interest" value="SightSeeing"> <br>
+        </div>
+        <div>
+            <label for="cupon">Discount Coupon code:</label> <br>
+            <input type="number" id="cupon" name="cupon" placeholder="Uncknown type">
+        </div>
+        <div>
+            <label for="terms">Terms and conditions*</label> <br>
+            <input type="radio" id="terms" name="terms" value="agree">I agree 
+            <input type="radio" id="terms" name="terms" value="disagree">I disagree <br>
+        </div>
+        <input type="submit" value="Complete reservation">
+    </form>
+    <h1>Task-3</h1>
+    <form action="#">
+        <div>
+            <label for="FirstName">FirstName:</label>
+            <input type="text" id="FirstName"> <br>
+        </div> <br>
+        <div>
+            <label for="LastName">LastName:</label>
+            <input type="text" id="LastName"> <br>
+        </div> <br>
+        <div>
+            <label for="course">Course:</label>
+            <select name="course" id="course">
+                <option value="Course">Course</option>
+                <option value="English">English</option>
+                <option value="Coding">Coding</option>
+            </select>
+        </div> <br>
+        <div>
+            <label for="gender">Gender:</label> <br>
+            <input type="radio" id="gender" name="gender" value="Male">Male <br>
+            <input type="radio" id="gender" name="gender" value="Female">Female <br>
+            <input type="radio" id="gender" name="gender" value="Other">Other
+        </div>
+        <div>
+            <label for="hobbies">Hobbies:</label> <br>
+            <input type="checkbox" name="hobbies" id="hobbies" value="Programming">Programming <br>
+            <input type="checkbox" name="hobbies" id="hobbies" value="Cricket">Cricket <br>
+            <input type="checkbox" name="hobbies" id="hobbies" value="Football">Football <br>
+            <input type="checkbox" name="hobbies" id="hobbies" value="Reading">Reading Novel <br>
+        </div> <br>
+        <div>
+            <label for="phone">Phone:</label>
+            <input type="tel">
+        </div> <br>
+        <div>
+            <label for="address">Address</label> <br>
+            <textarea name="" id="" cols="30" rows="10" style="width: 100%;"></textarea>
+        </div> <br>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+        </div> <br>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password">
+        </div> <br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
