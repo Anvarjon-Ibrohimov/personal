@@ -1,0 +1,56 @@
+.register{
+    margin-top: 40px;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    width: 100%;
+    height: auto;
+    padding: 10px 15px;
+    box-shadow: 5px 10px 15px rgba(0,0,0,0.7);
+}
+.register-container{
+    display: flex;
+}
+.register-data{
+    margin-top: 20px;
+    width: 50%;
+    text-align: left;
+    
+}
+.register-data label{
+    text-align: left;
+    text-transform: capitalize;
+    font-size: 25px;
+}
+
+.register-data input{
+    width: 90%;
+    height: 40px;
+    margin: 10px 0px;
+    border-radius: 30px;
+    border: none;
+    padding-left: 10px;
+    font-style: italic;
+}
+.btnContact{
+    width: 140px;
+    height: 40px;
+    background-color: #fff;
+    color: #163020;
+    font-size: 18px;
+    border: none;
+    border-radius: 30px;
+    font-weight: 600;
+    margin: 30px 10px;
+}
+.sending-data{
+    margin-top: 60px;
+}
+.textarea{
+    width: 600px;
+    height: 140px;
+    border-radius: 15px;
+    padding: 10px 15px;
+    font-style: italic;
+}
