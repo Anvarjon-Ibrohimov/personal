@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #BBE2EC;
+}
+
+.flex-container {
+    width: 1360px;
+    margin: 0 auto;
+    /* background-color: #bcc5c7; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.container {
+    width: 1360px;
+    margin: 0 auto;
+}
+
+.product h2 {
+    font-family: sans-serif;
+    color: #000;
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.card {
+    width: 200px;
+    height: 320px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.card-top {
+    width: 100%;
+    height: 80%;
+    /* background-color: red; */
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: relative;
+}
+
+.card-product {
+    width: 100%;
+    height: 80%;
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.card-product:hover {
+    background-color: #e6dede;
+}
+
+.card-product img {
+    overflow: hidden;
+    width: 140px;
+}
+
+.card-bottom {
+    width: 100%;
+    height: 20%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: green;
+    text-align: center;
+}
+
+.card-top h2 {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 5px;
+    font-style: italic;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.card-top span {
+    /* position: relative; */
+    position: absolute;
+    top: 94%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: red;
+    padding: 2px 15px;
+    border-radius: 15px;
+    /* width: 10px; */
+}
+
+.one {
+    background-color: #E78895;
+}
+
+.card-bottom p {
+    padding-top: 10%;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+.two {
+    background-color: #387ADF;
+}
+
+.three {
+    background-color: #9195F6;
+}
+
+.four {
+    background-color: #EE99C2;
+}
+
+.five {
+    background-color: #FBA834;
+}
+
+.six {
+    background-color: #9BCF53;
+}
+
+.seven {
+    background-color: #FDBF60;
+}
+
+.eight {
+    background-color: #387ADF;
+}
+
+.nine {
+    background-color: #FF407D;
+}
+
+.ten {
+    background-color: #9195F6;
+}
+
+.eleven {
+    background-color: #F9F07A;
+}
+
+.twelve {
+    background-color: #416D19;
+}
